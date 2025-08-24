@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>School Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.1/pure-min.css"
+      crossorigin="anonymous"
+    />
+
+    <!-- Load font awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/schoolIogo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="Admission.html">ADMISSIONS</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+      </nav>
+
+      <h1></h1>
+    </section>
+
+    <!---------------------------admission content-->
+
+
+
+    <section class="vision">
+        <h1>ADMISSIONS</h1>
+        <p>Admissions are in progress into:</p>
+        <div class="row">
+          <div class="course-col">
+            <h3>PRE-SCHOOL</h3>
+            <p>
+              nursery school, pre-primary school, play school or creche, is an
+              educational establishment or learning space offering early childhood
+              education to children before they begin compulsory education at
+              primary school.
+            </p>
+          </div>
+  
+          <div class="course-col">
+            <h3>PRIMARY</h3>
+            <p>
+              Programmes typically designed to provide students with fundamental
+              skills in reading, writing and mathematics and to establish a solid
+              foundation for learning.
+            </p>
+          </div>
+  
+          <div class="course-col">
+            <h3>SECONDARY</h3>
+            <p>
+              First stage of secondary education building on primary education,
+              typically with a more subject-oriented curriculum.<br />Second/final
+              stage of secondary education preparing for tertiary education or
+              providing skills <br />relevant to employment. Usually with an
+              increased range of subject options and streams.
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+
+
+      <!-------------Call To Action------------------>
+    <section class="cta">
+        <h1>
+          Enroll For Our Online Weekdays and weekend Modrasahs<br />Anywhere From
+          the world(for children and Adults)
+        </h1>
+        <a href="contact.html" class="hero-btn">CONTACT US</a>
+      </section>
+
+
+
+
+
+
+
+
+
+
+      <!---------------------------facilities content-->
+      <section class="facilities">
+        <h1>Our Facilites</h1>
+        <p>
+          At IKRAAM IDEAL MODEL SCHOOLS, we have different and useful facilities.
+        </p>
+  
+        <div class="row">
+          <div class="facilities-col">
+            <img src="images/Ikram School 1 (392).JPG" />
+            <h3>Our School library</h3>
+            <p>
+              Well equipped library available to all students of the school at any
+              time
+            </p>
+          </div>
+          <div class="facilities-col">
+            <img src="images/Ikram School 1 (265).JPG" />
+            <h3>Our Swimming pool</h3>
+            <p>
+              Our Swimming pool facilities and classes are available to all students of the school at
+              any time
+            </p>
+          </div>
+          <div class="facilities-col">
+            <img src="images/Ikram School 1 (291).JPG" />
+            <h3>ICT Center</h3>
+            <p>
+              ICT Centers and its facilities are available to all students of the school at any
+              time during the school hours.
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-------------Footer------------------>
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        <b>Our Vision</b> <br />
+        Empowering Minds, Enriching Souls At the heart of IKRAAM IDEAL MODEL
+        SCHOOLS lies a vision that goes beyond conventional education. We aim to
+        cultivate inquisitive minds, compassionate hearts, <br />and responsible
+        global citizens who can navigate both the Islamic and Western worlds
+        with confidence and integrity. <br /><b>Our Mission</b> <br />Fostering
+        Excellence in Education, Embracing Cultural Diversity We are dedicated
+        to providing a world-class education that seamlessly integrates Islamic
+        teachings with the best practices of Western education. <br />Our
+        mission is to nurture critical thinking, creativity, and a deep sense of
+        moral responsibility in our students.<br />
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+    </section>
+
+    <!----------------Javascript for Toggle Menu ---------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

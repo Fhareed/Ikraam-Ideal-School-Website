@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>School Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.1/pure-min.css"
+      crossorigin="anonymous"
+    />
+
+    <!-- Load font awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="images/schoolIogo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="Admission.html">ADMISSIONS</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+      </nav>
+
+      <!-- Background Image Slider -->
+      <div class="background-slider">
+        <img src="images/Ikram School 1 (502).JPG" id="slideImg" alt="School Background">
+        <div class="slider-nav">
+          <div class="slider-dot active" onclick="changeSlide(0)"></div>
+          <div class="slider-dot" onclick="changeSlide(1)"></div>
+          <div class="slider-dot" onclick="changeSlide(2)"></div>
+          <div class="slider-dot" onclick="changeSlide(3)"></div>
+          <div class="slider-dot" onclick="changeSlide(4)"></div>
+          <div class="slider-dot" onclick="changeSlide(5)"></div>
+          <div class="slider-dot" onclick="changeSlide(6)"></div>
+          <div class="slider-dot" onclick="changeSlide(7)"></div>
+          <div class="slider-dot" onclick="changeSlide(8)"></div>
+          <div class="slider-dot" onclick="changeSlide(9)"></div>
+          <div class="slider-dot" onclick="changeSlide(10)"></div>
+          <div class="slider-dot" onclick="changeSlide(11)"></div>
+          <div class="slider-dot" onclick="changeSlide(12)"></div>
+          <div class="slider-dot" onclick="changeSlide(13)"></div>
+          <div class="slider-dot" onclick="changeSlide(14)"></div>
+        </div>
+        <div class="slider-progress">
+          <div class="slider-progress-bar"></div>
+        </div>
+      </div>
+
+      <div class="text-box">
+        <h1><span id="typing-text"></span></h1>
+        <p>
+          At IKRAAM IDEAL MODEL SCHOOLS-Bridging Cultures, Nurturing Minds, we
+          believe in the power of education to transcend cultural boundaries
+          <br />and create a harmonious learning environment where students
+          thrive academically, morally, and culturally. <br />Our school stands
+          as a unique blend of Islamic and Western educational philosophies,
+          <br />offering a holistic learning experience that prepares students
+          <br />for success in a diverse and interconnected world.
+        </p>
+        <a href="about.html" class="hero-btn">Visit Us to Know More</a>
+      </div>
+    </section>
+
+    <!-------Vision---------->
+    <section class="vision">
+      <h1>ADMISSIONS</h1>
+      <p>Admissions are in progress into:</p>
+      <div class="row">
+        <div class="course-col">
+          <h3>PRE-SCHOOL</h3>
+          <p>
+            nursery school, pre-primary school, play school or creche, is an
+            educational establishment or learning space offering early childhood
+            education to children before they begin compulsory education at
+            primary school.
+          </p>
+        </div>
+
+        <div class="course-col">
+          <h3>PRIMARY</h3>
+          <p>
+            Programmes typically designed to provide students with fundamental
+            skills in reading, writing and mathematics and to establish a solid
+            foundation for learning.
+          </p>
+        </div>
+
+        <div class="course-col">
+          <h3>SECONDARY</h3>
+          <p>
+            First stage of secondary education building on primary education,
+            typically with a more subject-oriented curriculum.<br />Second/final
+            stage of secondary education preparing for tertiary education or
+            providing skills <br />relevant to employment. Usually with an
+            increased range of subject options and streams.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-------------Campus---------->
+
+    <section class="campus">
+      <h1>Our CAMPUSES</h1>
+      <p>
+        Our learning facilities and environment are designed to be
+        child-friendly and safe, and we also provide hostel amenities.
+      </p>
+      <div class="row">
+        <div class="campus-col">
+          <img src="images/60.jpg" />
+          <div class="layer">
+            <h3>SCHOOL CAMPUS</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="images/Ikram School 1 (502).JPG" />
+          <div class="layer">
+            <h3>BOYS HOSTEL</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="images/Ikram School 1 (505).JPG" />
+          <div class="layer">
+            <h3>GIRLS HOSTEL</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------------Facilities---------------->
+    <section class="facilities">
+      <h1>Our Facilites</h1>
+      <p>
+        At IKRAAM IDEAL MODEL SCHOOLS, we have different and useful facilities.
+      </p>
+
+      <div class="row">
+        <div class="facilities-col">
+          <img src="images/Ikram School 1 (392).JPG" />
+          <h3>Our School library</h3>
+          <p>
+            Well equipped library available to all students of the school at any
+            time
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/Ikram School 1 (265).JPG" />
+          <h3>Our Swimming pool</h3>
+          <p>
+            Our Swimming pool facilities and classes are available to all students of the school at
+            any time
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/Ikram School 1 (291).JPG" />
+          <h3>ICT Center</h3>
+          <p>
+            ICT Centers and its facilities are available to all students of the school at any
+            time during the school hours.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------Testimonials-------------->
+    <section class="testimonials">
+      <h1>What Our Students Say?</h1>
+      <p>Read the testimonies of our past Alumnis</p>
+
+      <div class="row">
+        <div class="testimonial-col">
+          <img src="images/hijab.jpg" />
+          <div>
+            <p>
+              Beyond the classrooms, the bonds forged with fellow students and
+              the guidance of mentors created an invaluable support system.
+              IKRAAM IDEAL MODEL SCHOOLS is not just a school; it's a community
+              that instills a sense of belonging and encourages each student to
+              reach their full potential. <br />Today, as I reflect on my
+              journey, I carry with me the confidence to navigate diverse
+              cultures and the compassion to contribute positively to society.
+              <br />I am not just a graduate of IKRAAM IDEAL MODEL SCHOOLS; I am
+              a product of an institution that believes in empowering minds and
+              hearts.
+            </p>
+            <h3>Abdul Majeed Radiah</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+        </div>
+        <div class="testimonial-col">
+          <img src="images/user2.jpg" />
+          <div>
+            <p>
+              The Islamic values embedded in every lesson, every prayer, and
+              every interaction provided me with a moral compass that guides me
+              to this day. <br />The rigorous academic curriculum, expertly
+              delivered by passionate educators,equipped me with the knowledge
+              and critical thinking skills necessary for success in the wider
+              world.<br />
+              What sets IKRAAM IDEAL MODEL SCHOOLS apart is its commitment to
+              nurturing well-rounded individuals. From engaging extracurricular
+              activities to a vibrant cultural tapestry that celebrates
+              diversity, this school prepares students not just for exams but
+              for life's multifaceted challenges.
+            </p>
+            <h3>Abdul Rahman Rauf</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------Call To Action------------------>
+    <section class="cta">
+      <h1>
+        Enroll For Our Online Weekdays and weekend Modrasahs<br />Anywhere From
+        the world
+      </h1>
+      <a href="contact.html" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!-------------Footer------------------>
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        <b>Our Vision</b> <br />
+        Empowering Minds, Enriching Souls At the heart of IKRAAM IDEAL MODEL
+        SCHOOLS lies a vision that goes beyond conventional education. We aim to
+        cultivate inquisitive minds, compassionate hearts, <br />and responsible
+        global citizens who can navigate both the Islamic and Western worlds
+        with confidence and integrity. <br /><b>Our Mission</b> <br />Fostering
+        Excellence in Education, Embracing Cultural Diversity We are dedicated
+        to providing a world-class education that seamlessly integrates Islamic
+        teachings with the best practices of Western education. <br />Our
+        mission is to nurture critical thinking, creativity, and a deep sense of
+        moral responsibility in our students.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+    </section>
+
+    <!----------------Javascript for Toggle Menu ---------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+
+      // Typewriter effect for main heading
+      function typeWriter() {
+        const typingElement = document.getElementById('typing-text');
+        const textToType = "Welcome to IKRAAM IDEAL MODEL SCHOOLS";
+        let i = 0;
+        
+        function type() {
+          if (i < textToType.length) {
+            typingElement.innerHTML += textToType.charAt(i);
+            i++;
+            setTimeout(type, 80);
+          }
+        }
+        
+        type();
+      }
+
+      // Initialize 3D tilt effects for all cards
+      function initializeTiltEffects() {
+        const cards = document.querySelectorAll('.course-col, .campus-col, .facilities-col, .testimonial-col');
+        
+        cards.forEach(card => {
+          card.addEventListener('mousemove', (e) => {
+            const rect = card.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+            
+            const centerX = rect.width / 2;
+            const centerY = rect.height / 2;
+            
+            const rotateX = (y - centerY) / 10;
+            const rotateY = (centerX - x) / 10;
+            
+            card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.05, 1.05, 1.05)`;
+          });
+          
+          card.addEventListener('mouseleave', () => {
+            card.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)';
+          });
+        });
+      }
+
+      // Initialize scroll-triggered animations
+      function initializeScrollAnimations() {
+        const sections = document.querySelectorAll('.vision, .campus, .facilities, .testimonials, .cta, .footer');
+        
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('animate-in');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, {
+          threshold: 0.2,
+          rootMargin: '0px 0px -50px 0px'
+        });
+        
+        sections.forEach(section => {
+          observer.observe(section);
+        });
+      }
+
+      // Initialize splash cursor
+      function initializeSplashCursor() {
+        const cursor = document.getElementById('splashCursor');
+        let isVisible = false;
+        
+        document.addEventListener('mousemove', (e) => {
+          if (!isVisible) {
+            cursor.classList.remove('hidden');
+            isVisible = true;
+          }
+          
+          cursor.style.left = e.clientX + 'px';
+          cursor.style.top = e.clientY + 'px';
+        });
+        
+        document.addEventListener('mouseleave', () => {
+          cursor.classList.add('hidden');
+          isVisible = false;
+        });
+        
+        document.addEventListener('click', (e) => {
+          cursor.classList.add('clicking');
+          setTimeout(() => cursor.classList.remove('clicking'), 600);
+          createRipple(e.clientX, e.clientY);
+        });
+        
+        const interactiveElements = document.querySelectorAll('a, button, .clickable-element, .course-col, .campus-col, .facilities-col, .testimonial-col');
+        
+        interactiveElements.forEach(element => {
+          element.addEventListener('mouseenter', () => {
+            cursor.classList.add('hovering');
+            cursor.style.transform = 'translate(-50%, -50%) scale(1.5)';
+          });
+          
+          element.addEventListener('mouseleave', () => {
+            cursor.classList.remove('hovering');
+            cursor.style.transform = 'translate(-50%, -50%) scale(1)';
+          });
+        });
+      }
+
+      // Image Slider Functions
+      let currentSlide = 0;
+      const slides = [
+          'images/Ikram School 1 (347).JPG',
+          'images/Ikram School 1 (250).JPG',
+          'images/Ikram School 1 (10).JPG',
+          'images/Ikram School 1 (11).JPG',
+          'images/Ikram School 1 (12).JPG',
+          'images/Ikram School 1 (17).JPG',
+          'images/Ikram School 1 (25).JPG',
+          'images/Ikram School 1 (28).JPG',
+          'images/Ikram School 1 (29).JPG',
+          'images/Ikram School 1 (33).JPG',
+          'images/Ikram School 1 (60).JPG',
+          'images/Ikram School 1 (61).JPG',
+          'images/Ikram School 1 (63).JPG',
+          'images/Ikram School 1 (65).JPG',
+          'images/Ikram School 1 (80).JPG',
+          'images/Ikram School 1 (82).JPG',
+          'images/Ikram School 1 (83).JPG',
+          'images/Ikram School 1 (87).JPG',
+          'images/Ikram School 1 (94).JPG',
+          'images/Ikram School 1 (96).JPG',
+          'images/Ikram School 1 (98).JPG',
+          'images/Ikram School 1 (102).JPG',
+          'images/Ikram School 1 (106).JPG',
+          'images/Ikram School 1 (109).JPG',
+          'images/Ikram School 1 (170).JPG',
+          'images/Ikram School 1 (174).JPG',
+          'images/Ikram School 1 (175).JPG',
+          'images/Ikram School 1 (197).JPG',
+          'images/Ikram School 1 (202).JPG',
+          'images/Ikram School 1 (207).JPG',
+          'images/Ikram School 1 (209).JPG',
+          'images/Ikram School 1 (210).JPG',
+          'images/Ikram School 1 (211).JPG',
+          'images/Ikram School 1 (212).JPG',
+          'images/Ikram School 1 (213).JPG',
+          'images/Ikram School 1 (214).JPG',
+          'images/Ikram School 1 (215).JPG',
+          'images/Ikram School 1 (216).JPG',
+          'images/Ikram School 1 (222).JPG',
+          'images/Ikram School 1 (223).JPG',
+          'images/Ikram School 1 (225).JPG',
+          'images/Ikram School 1 (229).JPG',
+          'images/Ikram School 1 (230).JPG',
+          'images/Ikram School 1 (233).JPG',
+          'images/Ikram School 1 (235).JPG',
+          'images/Ikram School 1 (242).JPG',
+          'images/Ikram School 1 (243).JPG',
+          'images/Ikram School 1 (245).JPG',
+          'images/Ikram School 1 (246).JPG',
+          'images/Ikram School 1 (247).JPG',
+          'images/Ikram School 1 (249).JPG',
+          'images/Ikram School 1 (250).JPG',
+          'images/Ikram School 1 (251).JPG',
+          'images/Ikram School 1 (252).JPG',
+          'images/Ikram School 1 (253).JPG',
+          'images/Ikram School 1 (254).JPG',
+          'images/Ikram School 1 (255).JPG',
+          'images/Ikram School 1 (256).JPG',
+          'images/Ikram School 1 (259).JPG',
+          'images/Ikram School 1 (260).JPG',
+          'images/Ikram School 1 (263).JPG',
+          'images/Ikram School 1 (265).JPG',
+          'images/Ikram School 1 (267).JPG',
+          'images/Ikram School 1 (269).JPG',
+          'images/Ikram School 1 (270).JPG',
+          'images/Ikram School 1 (275).JPG',
+          'images/Ikram School 1 (280).JPG',
+          'images/Ikram School 1 (282).JPG',
+          'images/Ikram School 1 (283).JPG',
+          'images/Ikram School 1 (284).JPG',
+          'images/Ikram School 1 (287).JPG',
+          'images/Ikram School 1 (290).JPG',
+          'images/Ikram School 1 (291).JPG',
+          'images/Ikram School 1 (292).JPG',
+          'images/Ikram School 1 (299).JPG',
+          'images/Ikram School 1 (300).JPG',
+          'images/Ikram School 1 (301).JPG',
+          'images/Ikram School 1 (303).JPG',
+          'images/Ikram School 1 (304).JPG',
+          'images/Ikram School 1 (305).JPG',
+          'images/Ikram School 1 (308).JPG',
+          'images/Ikram School 1 (309).JPG',
+          'images/Ikram School 1 (318).JPG',
+          'images/Ikram School 1 (339).JPG',
+          'images/Ikram School 1 (341).JPG',
+          'images/Ikram School 1 (342).JPG',
+          'images/Ikram School 1 (345).JPG',
+          'images/Ikram School 1 (346).JPG',
+          'images/Ikram School 1 (347).JPG',
+          'images/Ikram School 1 (355).JPG',
+          'images/Ikram School 1 (356).JPG',
+          'images/Ikram School 1 (357).JPG',
+          'images/Ikram School 1 (358).JPG',
+          'images/Ikram School 1 (359).JPG',
+          'images/Ikram School 1 (360).JPG',
+          'images/Ikram School 1 (361).JPG',
+          'images/Ikram School 1 (362).JPG',
+          'images/Ikram School 1 (364).JPG',
+          'images/Ikram School 1 (366).JPG',
+          'images/Ikram School 1 (367).JPG',
+          'images/Ikram School 1 (392).JPG',
+          'images/Ikram School 1 (489).JPG',
+          'images/Ikram School 1 (5).JPG',
+          'images/Ikram School 1 (503).JPG',
+          'images/Ikram School 1 (504).JPG',
+          'images/Ikram School 1 (566).JPG',
+          'images/Ikram School 1 (573).JPG',
+          'images/Ikram School 1 (582).JPG',
+          'images/Ikram School 1 (600).JPG',
+          'images/IkraamB.png'
+      ];
+
+      function changeSlide(index) {
+          currentSlide = index;
+          updateSlider();
+      }
+
+      function updateSlider() {
+          const slideImg = document.getElementById('slideImg');
+          const dots = document.querySelectorAll('.slider-dot');
+          
+          if (slideImg && dots.length > 0) {
+              slideImg.src = slides[currentSlide];
+              
+              // Update active dot
+              dots.forEach((dot, index) => {
+                  dot.classList.toggle('active', index === currentSlide);
+              });
+          }
+      }
+
+      function nextSlide() {
+          currentSlide = (currentSlide + 1) % slides.length;
+          updateSlider();
+      }
+
+      // Initialize slider when page loads
+      function initializeSlider() {
+          // Auto-advance slides every 5 seconds
+          setInterval(nextSlide, 5000);
+          updateSlider();
+      }
+      
+      function createRipple(x, y) {
+        const ripple = document.createElement('div');
+        ripple.className = 'splash-ripple';
+        ripple.style.left = x + 'px';
+        ripple.style.top = y + 'px';
+        ripple.style.position = 'fixed';
+        ripple.style.zIndex = '99998';
+        
+        document.body.appendChild(ripple);
+        
+        setTimeout(() => {
+          ripple.remove();
+        }, 800);
+      }
+
+      // Initialize everything when page loads
+      window.addEventListener('load', function() {
+        typeWriter();
+        initializeTiltEffects();
+        initializeScrollAnimations();
+        initializeSplashCursor();
+        initializeSlider(); // Initialize the slider
+      });
+    </script>
+    
+    <!-- Splash Cursor Element -->
+    <div class="splash-cursor" id="splashCursor"></div>
+  </body>
+</html>

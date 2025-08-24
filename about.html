@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>School Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.1/pure-min.css"
+      crossorigin="anonymous"
+    />
+
+    <!-- Load font awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/schoolIogo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="Admission.html">ADMISSIONS</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>About Us</h1>
+    </section>
+
+    <!---------------------------about us content-->
+
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>
+            Bridging Cultures, Nurturing Minds at IKRAAM IDEAL MODEL SCHOOLS
+          </h1>
+          <p>
+            Welcome to IKRAAM IDEAL MODEL SCHOOLS, where the convergence of
+            Islamic wisdom and Western knowledge creates a dynamic and inclusive
+            educational experience. Our story is one of purpose, dedication, and
+            a commitment to fostering a generation of students who seamlessly
+            navigate the dual realms of tradition and innovation. The IKRAAM
+            IDEAL MODEL SCHOOLS Difference<br />
+            Holistic Education: <br />We believe in the holistic development of
+            our students. Our curriculum seamlessly weaves together the
+            teachings of Islam with a rigorous academic program, ensuring that
+            our graduates are well-rounded individuals poised for success in a
+            diverse world. <br>Diverse and Inclusive Community: <br>IKRAAM IDEAL MODEL SCHOOLS is a
+            melting pot of cultures and backgrounds. We celebrate diversity,
+            fostering an inclusive environment that encourages students to
+            appreciate, respect, and learn from one another. <br>Expert Faculty:<br> Our
+            passionate educators are not just experts in their fields; they are
+            mentors dedicated to nurturing the potential within each student.
+            With a focus on personalized learning, we guide our students on a
+            journey of academic excellence and personal growth.<br> Our Campus <br>Nestled in Ijoko,Sango,Ogun State, our state-of-the-art
+            campus provides a conducive learning environment. From modern
+            classrooms equipped with cutting-edge technology to spaces that
+            encourage creativity and collaboration, IKRAAM IDEAL MODEL SCHOOLS is more than
+            just a school; it's a vibrant community where every corner is
+            designed to inspire. <br>Mission and Values<br> Our mission is clear – to
+            foster excellence in education while embracing cultural diversity.
+            We strive to instill a sense of responsibility, empathy, and a
+            commitment to making a positive impact in the world. Our values are
+            deeply rooted in the teachings of Islam, guiding every aspect of our
+            educational approach.
+          </p>
+          <a href="Admission.html" class="hero-btn pur-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/Ikram School 1 (582).JPG">
+        </div>
+      </div>
+    </section>
+
+    <!-------------Footer------------------>
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        <b>Our Vision</b> <br />
+        Empowering Minds, Enriching Souls At the heart of IKRAAM IDEAL MODEL
+        SCHOOLS lies a vision that goes beyond conventional education. We aim to
+        cultivate inquisitive minds, compassionate hearts, <br />and responsible
+        global citizens who can navigate both the Islamic and Western worlds
+        with confidence and integrity. <br /><b>Our Mission</b> <br />Fostering
+        Excellence in Education, Embracing Cultural Diversity We are dedicated
+        to providing a world-class education that seamlessly integrates Islamic
+        teachings with the best practices of Western education. <br />Our
+        mission is to nurture critical thinking, creativity, and a deep sense of
+        moral responsibility in our students.<br />
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+    </section>
+
+    <!----------------Javascript for Toggle Menu ---------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
