@@ -1,0 +1,30 @@
+# GitHub Pages Configuration
+title: IKRAAM IDEAL MODEL SCHOOLS
+description: Bridging Cultures, Nurturing Minds - A unique blend of Islamic and Western educational philosophies
+url: https://www.ikraamidealmodelschools.com
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO
+author: IKRAAM IDEAL MODEL SCHOOLS
+email: info@ikraamidealmodelschools.com
+
+# Social media
+social:
+  name: IKRAAM IDEAL MODEL SCHOOLS
+  links:
+    - https://facebook.com/ikraamidealmodelschools
+    - https://instagram.com/ikraamidealmodelschools
+    - https://twitter.com/ikraamschools
+
+# Collections
+collections:
+  achievements:
+    output: true
+    permalink: /achievements/:name/ 
