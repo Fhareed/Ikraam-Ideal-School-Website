@@ -1,0 +1,17 @@
+# Netlify redirects file
+# Handle single page application routing
+
+/*    /index.html   200
+
+# Redirect old URLs if any
+/about.html    /about.html   200
+/gallery.html  /gallery.html 200
+/contact.html  /contact.html 200
+/blog.html     /blog.html    200
+/Admission.html /Admission.html 200
+
+# Handle PDF files
+/Achievements/*  /Achievements/*  200
+
+# Security headers
+/security.txt   /security.txt    200 
