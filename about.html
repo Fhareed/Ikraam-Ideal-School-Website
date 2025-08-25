@@ -14,20 +14,30 @@
 </head>
 <body>
     <!-- Navigation -->
-    <nav>
-        <a href="index.html"><img src="images/schoolIogo.png" alt="IKRAAM Schools Logo" /></a>
-        <div class="nav-links" id="navLinks">
-            <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="Admission.html">ADMISSIONS</a></li>
-                <li><a href="gallery.html">GALLERY</a></li>
-                <li><a href="blog.html">BLOG</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-            </ul>
+    <nav class="modern-nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="images/schoolIogo.png" alt="IKRAAM Schools Logo" />
+                    <span class="logo-text">IKRAAM</span>
+                </a>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="index.html" class="nav-link">HOME</a></li>
+                    <li><a href="about.html" class="nav-link active">ABOUT</a></li>
+                    <li><a href="Admission.html" class="nav-link">ADMISSIONS</a></li>
+                    <li><a href="gallery.html" class="nav-link">GALLERY</a></li>
+                    <li><a href="blog.html" class="nav-link">BLOG</a></li>
+                    <li><a href="contact.html" class="nav-link">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="nav-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
-        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
     </nav>
 
     <!-- Hero Section with Animated Background -->
@@ -239,7 +249,7 @@
             
             <div class="campus-grid">
                 <div class="campus-card">
-                    <img src="images/library.png" alt="Modern Library">
+                    <img src="images/Ikram School 1 (392).JPG" alt="Modern Library">
                     <div class="card-content">
                         <h3>State-of-the-Art Facilities</h3>
                         <p>From our modern library to science laboratories, every facility is designed to inspire learning and creativity.</p>
@@ -247,7 +257,7 @@
                 </div>
                 
                 <div class="campus-card">
-                    <img src="images/basketball.png" alt="Sports Facilities">
+                    <img src="images/Ikram School 1 (265).JPG" alt="Sports Facilities">
                     <div class="card-content">
                         <h3>Sports & Recreation</h3>
                         <p>Our comprehensive sports program promotes physical health, teamwork, and leadership skills in a fun environment.</p>
@@ -382,11 +392,9 @@
     <script>
         // Mobile Navigation Functions
         var navLinks = document.getElementById("navLinks");
-        function showMenu() {
-            navLinks.style.right = "0";
-        }
-        function hideMenu() {
-            navLinks.style.right = "-200px";
+        function toggleMenu() {
+            navLinks.classList.toggle('active');
+            document.querySelector('.nav-toggle').classList.toggle('active');
         }
 
         // Typing Animation for Hero Section
