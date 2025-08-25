@@ -4407,7 +4407,6 @@ p{
     align-items: center;
     justify-content: space-between;
     height: 80px;
-    flex-direction: row-reverse;
 }
 
 .nav-logo a {
