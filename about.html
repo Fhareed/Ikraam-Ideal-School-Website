@@ -1,133 +1,550 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>School Website</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,400&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.1/pure-min.css"
-      crossorigin="anonymous"
-    />
-
-    <!-- Load font awesome icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-  </head>
-  <body>
-    <section class="sub-header">
-      <nav>
-        <a href="index.html"><img src="images/schoolIogo.png" /></a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - IKRAAM IDEAL MODEL SCHOOLS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.1/pure-min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html"><img src="images/schoolIogo.png" alt="IKRAAM Schools Logo" /></a>
         <div class="nav-links" id="navLinks">
-          <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
-          <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="Admission.html">ADMISSIONS</a></li>
-            <li><a href="gallery.html">GALLERY</a></li>
-            <li><a href="blog.html">BLOG</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-          </ul>
+            <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="Admission.html">ADMISSIONS</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
         </div>
         <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
-      </nav>
+    </nav>
 
-      <h1>About Us</h1>
+    <!-- Hero Section with Animated Background -->
+    <section class="about-hero">
+        <div class="hero-content">
+            <h1><span id="typing-text"></span></h1>
+            <p>Where Islamic Wisdom Meets Western Excellence</p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="500">0</span>
+                    <span class="stat-label">Students</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="50">0</span>
+                    <span class="stat-label">Expert Teachers</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="15">0</span>
+                    <span class="stat-label">Years of Excellence</span>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <!---------------------------about us content-->
-
-    <section class="about-us">
-      <div class="row">
-        <div class="about-col">
-          <h1>
-            Bridging Cultures, Nurturing Minds at IKRAAM IDEAL MODEL SCHOOLS
-          </h1>
-          <p>
-            Welcome to IKRAAM IDEAL MODEL SCHOOLS, where the convergence of
-            Islamic wisdom and Western knowledge creates a dynamic and inclusive
-            educational experience. Our story is one of purpose, dedication, and
-            a commitment to fostering a generation of students who seamlessly
-            navigate the dual realms of tradition and innovation. The IKRAAM
-            IDEAL MODEL SCHOOLS Difference<br />
-            Holistic Education: <br />We believe in the holistic development of
-            our students. Our curriculum seamlessly weaves together the
-            teachings of Islam with a rigorous academic program, ensuring that
-            our graduates are well-rounded individuals poised for success in a
-            diverse world. <br>Diverse and Inclusive Community: <br>IKRAAM IDEAL MODEL SCHOOLS is a
-            melting pot of cultures and backgrounds. We celebrate diversity,
-            fostering an inclusive environment that encourages students to
-            appreciate, respect, and learn from one another. <br>Expert Faculty:<br> Our
-            passionate educators are not just experts in their fields; they are
-            mentors dedicated to nurturing the potential within each student.
-            With a focus on personalized learning, we guide our students on a
-            journey of academic excellence and personal growth.<br> Our Campus <br>Nestled in Ijoko,Sango,Ogun State, our state-of-the-art
-            campus provides a conducive learning environment. From modern
-            classrooms equipped with cutting-edge technology to spaces that
-            encourage creativity and collaboration, IKRAAM IDEAL MODEL SCHOOLS is more than
-            just a school; it's a vibrant community where every corner is
-            designed to inspire. <br>Mission and Values<br> Our mission is clear – to
-            foster excellence in education while embracing cultural diversity.
-            We strive to instill a sense of responsibility, empathy, and a
-            commitment to making a positive impact in the world. Our values are
-            deeply rooted in the teachings of Islam, guiding every aspect of our
-            educational approach.
-          </p>
-          <a href="Admission.html" class="hero-btn pur-btn">EXPLORE NOW</a>
+    <!-- Our Story Section -->
+    <section class="our-story">
+        <div class="container">
+            <div class="story-content">
+                <div class="story-text">
+                    <h2>The IKRAAM Story</h2>
+                    <p class="story-intro">In the heart of Sango, Ogun State, a vision was born – to create an educational institution that would bridge the gap between Islamic tradition and Western innovation.</p>
+                    
+                    <div class="story-timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker">2009</div>
+                            <div class="timeline-content">
+                                <h4>The Beginning</h4>
+                                <p>IKRAAM IDEAL MODEL SCHOOLS opened its doors with a dream to revolutionize Islamic education in Nigeria.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-marker">2015</div>
+                            <div class="timeline-content">
+                                <h4>Academic Excellence</h4>
+                                <p>Our students began achieving remarkable results in national examinations, proving the success of our unique approach.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-marker">2020</div>
+                            <div class="timeline-content">
+                                <h4>Digital Transformation</h4>
+                                <p>We embraced modern technology while maintaining our core Islamic values, creating a 21st-century learning environment.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-marker">2024</div>
+                            <div class="timeline-content">
+                                <h4>Global Recognition</h4>
+                                <p>Today, IKRAAM stands as a beacon of educational excellence, recognized for our innovative approach to Islamic education.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="story-image">
+                    <img src="images/Ikram School 1 (582).JPG" alt="IKRAAM School Campus">
+                    <div class="image-overlay">
+                        <div class="overlay-content">
+                            <i class="fa fa-star"></i>
+                            <h4>Excellence Since 2009</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="about-col">
-            <img src="images/Ikram School 1 (582).JPG">
-        </div>
-      </div>
     </section>
 
-    <!-------------Footer------------------>
+    <!-- Core Values Section -->
+    <section class="core-values">
+        <div class="container">
+            <h2>Our Core Values</h2>
+            <p>The foundation upon which we build future leaders</p>
+            
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fa fa-heart"></i>
+                    </div>
+                    <h3>Compassion</h3>
+                    <p>We teach our students to lead with empathy, understanding, and a genuine concern for others' well-being.</p>
+                </div>
+                
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fa fa-balance-scale"></i>
+                    </div>
+                    <h3>Integrity</h3>
+                    <p>Honesty, truthfulness, and moral uprightness form the cornerstone of every decision we make.</p>
+                </div>
+                
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fa fa-lightbulb-o"></i>
+                    </div>
+                    <h3>Innovation</h3>
+                    <p>We encourage creative thinking and embrace new ideas while respecting traditional wisdom.</p>
+                </div>
+                
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fa fa-users"></i>
+                    </div>
+                    <h3>Community</h3>
+                    <p>Building strong bonds between students, teachers, parents, and the wider community.</p>
+                </div>
+                
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fa fa-graduation-cap"></i>
+                    </div>
+                    <h3>Excellence</h3>
+                    <p>Striving for the highest standards in everything we do, from academics to character development.</p>
+                </div>
+                
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fa fa-globe"></i>
+                    </div>
+                    <h3>Global Perspective</h3>
+                    <p>Preparing students to be world citizens who can navigate diverse cultures with confidence.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Educational Philosophy Section -->
+    <section class="philosophy">
+        <div class="container">
+            <div class="philosophy-content">
+                <div class="philosophy-text">
+                    <h2>Our Educational Philosophy</h2>
+                    <p class="philosophy-intro">At IKRAAM IDEAL MODEL SCHOOLS, we believe education is not just about acquiring knowledge, but about transforming lives and building character.</p>
+                    
+                    <div class="philosophy-points">
+                        <div class="point-item">
+                            <div class="point-icon">
+                                <i class="fa fa-mosque"></i>
+                            </div>
+                            <div class="point-content">
+                                <h4>Islamic Foundation</h4>
+                                <p>Every lesson is infused with Islamic values, teaching students to live according to the principles of faith, compassion, and service to others.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="point-item">
+                            <div class="point-icon">
+                                <i class="fa fa-rocket"></i>
+                            </div>
+                            <div class="point-content">
+                                <h4>Modern Innovation</h4>
+                                <p>We embrace cutting-edge technology and modern teaching methods, preparing students for the challenges of tomorrow's world.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="point-item">
+                            <div class="point-icon">
+                                <i class="fa fa-handshake-o"></i>
+                            </div>
+                            <div class="point-content">
+                                <h4>Cultural Harmony</h4>
+                                <p>Our unique approach creates a harmonious blend where students learn to appreciate both Islamic traditions and Western knowledge.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="philosophy-visual">
+                    <div class="visual-element">
+                        <div class="circle circle-1">
+                            <i class="fa fa-mosque"></i>
+                        </div>
+                        <div class="circle circle-2">
+                            <i class="fa fa-graduation-cap"></i>
+                        </div>
+                        <div class="circle circle-3">
+                            <i class="fa fa-globe"></i>
+                        </div>
+                        <div class="connecting-lines"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campus Life Section -->
+    <section class="campus-life">
+        <div class="container">
+            <h2>Life at IKRAAM</h2>
+            <p>Experience the vibrant community that makes learning extraordinary</p>
+            
+            <div class="campus-grid">
+                <div class="campus-card">
+                    <img src="images/library.png" alt="Modern Library">
+                    <div class="card-content">
+                        <h3>State-of-the-Art Facilities</h3>
+                        <p>From our modern library to science laboratories, every facility is designed to inspire learning and creativity.</p>
+                    </div>
+                </div>
+                
+                <div class="campus-card">
+                    <img src="images/basketball.png" alt="Sports Facilities">
+                    <div class="card-content">
+                        <h3>Sports & Recreation</h3>
+                        <p>Our comprehensive sports program promotes physical health, teamwork, and leadership skills in a fun environment.</p>
+                    </div>
+                </div>
+                
+                <div class="campus-card">
+                    <img src="images/cafeteria.png" alt="Halal Dining">
+                    <div class="card-content">
+                        <h3>Halal Dining Experience</h3>
+                        <p>Students enjoy nutritious, halal meals prepared with care, supporting healthy eating habits and Islamic dietary requirements.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Community Says</h2>
+            <p>Hear from the people who make IKRAAM special</p>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial active">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fa fa-quote-left"></i>
+                        </div>
+                        <p>"IKRAAM has given my child not just an education, but a foundation for life. The balance of Islamic values and academic excellence is exactly what we were looking for."</p>
+                        <div class="testimonial-author">
+                            <img src="images/user1.jpg" alt="Parent">
+                            <div class="author-info">
+                                <h4>Fatima Ahmed</h4>
+                                <span>Parent of Primary Student</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fa fa-quote-left"></i>
+                        </div>
+                        <p>"As a teacher here, I'm inspired by how IKRAAM creates an environment where students can grow academically while developing strong moral character."</p>
+                        <div class="testimonial-author">
+                            <img src="images/user2.jpg" alt="Teacher">
+                            <div class="author-info">
+                                <h4>Mr. Abdul Rahman</h4>
+                                <span>Mathematics Teacher</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fa fa-quote-left"></i>
+                        </div>
+                        <p>"IKRAAM prepared me for university life and beyond. The Islamic values I learned here continue to guide me in my professional career."</p>
+                        <div class="testimonial-author">
+                            <img src="images/hijab.jpg" alt="Alumni">
+                            <div class="author-info">
+                                <h4>Aisha Yusuf</h4>
+                                <span>Class of 2020 Alumni</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-nav">
+                <button class="nav-btn prev-btn" onclick="changeTestimonial(-1)">
+                    <i class="fa fa-chevron-left"></i>
+                </button>
+                <div class="testimonial-dots">
+                    <span class="dot active" onclick="currentTestimonial(1)"></span>
+                    <span class="dot" onclick="currentTestimonial(2)"></span>
+                    <span class="dot" onclick="currentTestimonial(3)"></span>
+                </div>
+                <button class="nav-btn next-btn" onclick="changeTestimonial(1)">
+                    <i class="fa fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta">
+        <h2>Join the IKRAAM Family</h2>
+        <p>Be part of an educational journey that transforms lives and builds futures</p>
+        <div class="cta-buttons">
+            <a href="Admission.html" class="hero-btn">Apply Now</a>
+            <a href="contact.html" class="hero-btn secondary">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <section class="footer">
-      <h4>About Us</h4>
-      <p>
-        <b>Our Vision</b> <br />
-        Empowering Minds, Enriching Souls At the heart of IKRAAM IDEAL MODEL
-        SCHOOLS lies a vision that goes beyond conventional education. We aim to
-        cultivate inquisitive minds, compassionate hearts, <br />and responsible
-        global citizens who can navigate both the Islamic and Western worlds
-        with confidence and integrity. <br /><b>Our Mission</b> <br />Fostering
-        Excellence in Education, Embracing Cultural Diversity We are dedicated
-        to providing a world-class education that seamlessly integrates Islamic
-        teachings with the best practices of Western education. <br />Our
-        mission is to nurture critical thinking, creativity, and a deep sense of
-        moral responsibility in our students.<br />
-      </p>
-      <div class="icons">
-        <i class="fa fa-facebook"></i>
-        <i class="fa fa-twitter"></i>
-        <i class="fa fa-instagram"></i>
-        <i class="fa fa-linkedin"></i>
-      </div>
+        <h4>About Us</h4>
+        <p>
+            <b>Our Vision</b><br>
+            Empowering Minds, Enriching Souls. At the heart of IKRAAM IDEAL MODEL SCHOOLS lies a vision that goes beyond conventional education. We aim to cultivate inquisitive minds, compassionate hearts, and responsible global citizens who can navigate both the Islamic and Western worlds with confidence and integrity.
+            <br><b>Our Mission</b><br>
+            Fostering Excellence in Education, Embracing Cultural Diversity. We are dedicated to providing a world-class education that seamlessly integrates Islamic teachings with the best practices of Western education. Our mission is to nurture critical thinking, creativity, and a deep sense of moral responsibility in our students.
+        </p>
+        <div class="contact-details">
+            <p><i class="fa fa-map-marker"></i> 41/43 Olanrewaju Street, Ijoko Road, Sango, Ogun State, Nigeria</p>
+            <p><i class="fa fa-phone"></i> +2348033123960, +2348185783695, +2348130672649</p>
+            <p><i class="fa fa-envelope"></i> ikraamidealmodelcollege1@gmail.com</p>
+        </div>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
     </section>
 
-    <!----------------Javascript for Toggle Menu ---------->
-    <script>
-      var navLinks = document.getElementById("navLinks");
+    <!-- Splash Cursor Element -->
+    <div class="splash-cursor" id="splashCursor"></div>
 
-      function showMenu() {
-        navLinks.style.right = "0";
-      }
-      function hideMenu() {
-        navLinks.style.right = "-200px";
-      }
+    <!-- JavaScript -->
+    <script>
+        // Mobile Navigation Functions
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+        // Typing Animation for Hero Section
+        function typeWriter() {
+            const text = "Discover the IKRAAM Difference";
+            const typingText = document.getElementById('typing-text');
+            let i = 0;
+
+            function type() {
+                if (i < text.length) {
+                    typingText.innerHTML += text.charAt(i);
+                    i++;
+                    setTimeout(type, 100);
+                }
+            }
+            type();
+        }
+
+        // Animated Counter for Statistics
+        function animateCounters() {
+            const counters = document.querySelectorAll('.stat-number');
+            const speed = 200;
+
+            counters.forEach(counter => {
+                const updateCount = () => {
+                    const target = +counter.getAttribute('data-target');
+                    const count = +counter.innerText;
+                    const inc = target / speed;
+
+                    if (count < target) {
+                        counter.innerText = Math.ceil(count + inc);
+                        setTimeout(updateCount, 1);
+                    } else {
+                        counter.innerText = target;
+                    }
+                };
+                updateCount();
+            });
+        }
+
+        // Testimonials Slider
+        let currentTestimonialIndex = 0;
+        const testimonials = document.querySelectorAll('.testimonial');
+        const dots = document.querySelectorAll('.dot');
+
+        function showTestimonial(index) {
+            testimonials.forEach((testimonial, i) => {
+                testimonial.classList.remove('active');
+                if (i === index) {
+                    testimonial.classList.add('active');
+                }
+            });
+
+            dots.forEach((dot, i) => {
+                dot.classList.remove('active');
+                if (i === index) {
+                    dot.classList.add('active');
+                }
+            });
+        }
+
+        function changeTestimonial(direction) {
+            currentTestimonialIndex += direction;
+            
+            if (currentTestimonialIndex >= testimonials.length) {
+                currentTestimonialIndex = 0;
+            } else if (currentTestimonialIndex < 0) {
+                currentTestimonialIndex = testimonials.length - 1;
+            }
+            
+            showTestimonial(currentTestimonialIndex);
+        }
+
+        function currentTestimonial(index) {
+            currentTestimonialIndex = index - 1;
+            showTestimonial(currentTestimonialIndex);
+        }
+
+        // Auto-rotate testimonials
+        setInterval(() => {
+            changeTestimonial(1);
+        }, 5000);
+
+        // Initialize 3D Tilt Effects for Cards
+        function initializeTiltEffects() {
+            const cards = document.querySelectorAll('.value-card, .campus-card, .point-item');
+            
+            cards.forEach(card => {
+                card.addEventListener('mousemove', (e) => {
+                    const rect = card.getBoundingClientRect();
+                    const x = e.clientX - rect.left;
+                    const y = e.clientY - rect.top;
+                    
+                    const centerX = rect.width / 2;
+                    const centerY = rect.height / 2;
+                    
+                    const rotateX = (y - centerY) / 15;
+                    const rotateY = (centerX - x) / 15;
+                    
+                    card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.02, 1.02, 1.02)`;
+                });
+                
+                card.addEventListener('mouseleave', () => {
+                    card.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)';
+                });
+            });
+        }
+
+        // Initialize Scroll Animations
+        function initializeScrollAnimations() {
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animate-in');
+                    }
+                });
+            }, observerOptions);
+
+            const sections = document.querySelectorAll('.our-story, .core-values, .philosophy, .campus-life, .testimonials');
+            sections.forEach(section => observer.observe(section));
+        }
+
+        // Initialize Splash Cursor
+        function initializeSplashCursor() {
+            const cursor = document.getElementById('splashCursor');
+            
+            document.addEventListener('mousemove', (e) => {
+                cursor.style.left = e.clientX + 'px';
+                cursor.style.top = e.clientY + 'px';
+            });
+            
+            document.addEventListener('click', (e) => {
+                createRipple(e.clientX, e.clientY);
+            });
+            
+            document.addEventListener('mouseenter', () => {
+                cursor.style.opacity = '1';
+            });
+            
+            document.addEventListener('mouseleave', () => {
+                cursor.style.opacity = '0';
+            });
+        }
+
+        // Create Ripple Effect
+        function createRipple(x, y) {
+            const ripple = document.createElement('div');
+            ripple.className = 'ripple';
+            ripple.style.left = x + 'px';
+            ripple.style.top = y + 'px';
+            document.body.appendChild(ripple);
+            
+            setTimeout(() => {
+                ripple.remove();
+            }, 1000);
+        }
+
+        // Initialize everything when page loads
+        window.addEventListener('load', () => {
+            typeWriter();
+            setTimeout(animateCounters, 1000);
+            initializeTiltEffects();
+            initializeScrollAnimations();
+            initializeSplashCursor();
+        });
     </script>
-  </body>
+</body>
 </html>
