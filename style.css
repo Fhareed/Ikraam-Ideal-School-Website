@@ -4505,8 +4505,8 @@ p{
     min-height: 80vh;
     width: 100%;
     background-image: 
-        linear-gradient(135deg, rgba(4, 9, 30, 0.95), rgba(4, 9, 30, 0.85)),
-        url(images/Ikram School 1 (582).JPG);
+        linear-gradient(135deg, rgba(4, 9, 30, 0.9), rgba(4, 9, 30, 0.8)),
+        url(images/Ikram School 1 (170).JPG);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -4535,13 +4535,52 @@ p{
     pointer-events: none;
 }
 
+/* Modern Floating Elements */
+.about-hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        radial-gradient(2px 2px at 20px 30px, rgba(255, 255, 255, 0.8), transparent),
+        radial-gradient(2px 2px at 40px 70px, rgba(255, 255, 255, 0.6), transparent),
+        radial-gradient(1px 1px at 90px 40px, rgba(255, 255, 255, 0.8), transparent),
+        radial-gradient(1px 1px at 130px 80px, rgba(255, 255, 255, 0.6), transparent),
+        radial-gradient(2px 2px at 160px 30px, rgba(255, 255, 255, 0.8), transparent),
+        radial-gradient(2px 2px at 200px 70px, rgba(255, 255, 255, 0.6), transparent),
+        radial-gradient(1px 1px at 240px 40px, rgba(255, 255, 255, 0.8), transparent),
+        radial-gradient(1px 1px at 280px 80px, rgba(255, 255, 255, 0.6), transparent),
+        radial-gradient(2px 2px at 320px 30px, rgba(255, 255, 255, 0.8), transparent),
+        radial-gradient(2px 2px at 360px 70px, rgba(255, 255, 255, 0.6), transparent),
+        radial-gradient(1px 1px at 400px 40px, rgba(255, 255, 255, 0.8), transparent),
+        radial-gradient(1px 1px at 440px 80px, rgba(255, 255, 255, 0.6), transparent),
+        radial-gradient(2px 2px at 480px 30px, rgba(255, 255, 255, 0.8), transparent),
+        radial-gradient(2px 2px at 520px 70px, rgba(255, 255, 255, 0.6), transparent),
+        radial-gradient(1px 1px at 560px 40px, rgba(255, 255, 255, 0.8), transparent),
+        radial-gradient(1px 1px at 600px 80px, rgba(255, 255, 255, 0.6), transparent);
+    background-repeat: repeat;
+    background-size: 600px 100px;
+    animation: floatingParticles 15s linear infinite;
+    z-index: 2;
+    pointer-events: none;
+    opacity: 0.7;
+}
+
 .about-hero .hero-content {
     text-align: center;
     color: #fff;
     position: relative;
     z-index: 5;
     max-width: 900px;
-    padding: 0 20px;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    animation: contentFloat 6s ease-in-out infinite;
 }
 
 .about-hero .hero-content h1 {
@@ -4569,10 +4608,18 @@ p{
 .stat-item {
     text-align: center;
     transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .stat-item:hover {
-    transform: translateY(-10px);
+    transform: translateY(-15px) scale(1.05);
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
 
 .stat-icon {
@@ -5015,6 +5062,16 @@ p{
 @keyframes float {
     0%, 100% { transform: translateY(0px); }
     50% { transform: translateY(-20px); }
+}
+
+@keyframes floatingParticles {
+    0% { transform: translateY(0px); }
+    100% { transform: translateY(-100px); }
+}
+
+@keyframes contentFloat {
+    0%, 100% { transform: translateY(0px) scale(1); }
+    50% { transform: translateY(-10px) scale(1.02); }
 }
 
 /* Campus Life Section */
