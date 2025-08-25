@@ -1,208 +1,498 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>School Website</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,400&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.1/pure-min.css"
-      crossorigin="anonymous"
-    />
-
-    <!-- Load font awesome icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-  </head>
-  <body>
-    <section class="sub-header">
-      <nav>
-        <a href="index.html"><img src="images/schoolIogo.png" /></a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions - IKRAAM IDEAL MODEL SCHOOLS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.1/pure-min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html"><img src="images/schoolIogo.png" alt="IKRAAM Schools Logo" /></a>
         <div class="nav-links" id="navLinks">
-          <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
-          <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="Admission.html">ADMISSIONS</a></li>
-            <li><a href="gallery.html">GALLERY</a></li>
-            <li><a href="blog.html">BLOG</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-          </ul>
+            <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="Admission.html">ADMISSIONS</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
         </div>
         <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
-      </nav>
+    </nav>
 
-      <h1></h1>
+    <!-- Hero Section with Light Rays -->
+    <section class="admission-hero">
+        <div class="hero-content">
+            <h1><span id="typing-text"></span></h1>
+            <p>Begin Your Child's Journey of Excellence in Islamic and Western Education</p>
+            <a href="#admission-form" class="hero-btn">Apply Now</a>
+        </div>
     </section>
 
-    <!---------------------------admission content-->
-
-
-
-    <section class="vision">
-        <h1>ADMISSIONS</h1>
-        <p>Admissions are in progress into:</p>
-        <div class="row">
-          <div class="course-col">
-            <h3>PRE-SCHOOL</h3>
-            <p>
-              nursery school, pre-primary school, play school or creche, is an
-              educational establishment or learning space offering early childhood
-              education to children before they begin compulsory education at
-              primary school.
-            </p>
-          </div>
-  
-          <div class="course-col">
-            <h3>PRIMARY</h3>
-            <p>
-              Programmes typically designed to provide students with fundamental
-              skills in reading, writing and mathematics and to establish a solid
-              foundation for learning.
-            </p>
-          </div>
-  
-          <div class="course-col">
-            <h3>SECONDARY</h3>
-            <p>
-              First stage of secondary education building on primary education,
-              typically with a more subject-oriented curriculum.<br />Second/final
-              stage of secondary education preparing for tertiary education or
-              providing skills <br />relevant to employment. Usually with an
-              increased range of subject options and streams.
-            </p>
-          </div>
+    <!-- Why Choose IKRAAM Section -->
+    <section class="why-choose">
+        <div class="container">
+            <h2>Why Choose IKRAAM IDEAL MODEL SCHOOLS?</h2>
+            <p>Discover the unique blend of Islamic values and academic excellence</p>
+            
+            <div class="row">
+                <div class="feature-col">
+                    <div class="feature-icon">
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h3>Islamic Foundation</h3>
+                    <p>Strong Islamic values and teachings integrated into daily learning, fostering spiritual growth alongside academic excellence.</p>
+                </div>
+                
+                <div class="feature-col">
+                    <div class="feature-icon">
+                        <i class="fa fa-graduation-cap"></i>
+                    </div>
+                    <h3>Academic Excellence</h3>
+                    <p>World-class curriculum following international standards, preparing students for success in higher education and life.</p>
+                </div>
+                
+                <div class="feature-col">
+                    <div class="feature-icon">
+                        <i class="fa fa-users"></i>
+                    </div>
+                    <h3>Cultural Diversity</h3>
+                    <p>Celebrating diversity while maintaining Islamic identity, preparing students for a globalized world.</p>
+                </div>
+            </div>
         </div>
-      </section>
+    </section>
 
+    <!-- Academic Programs Section -->
+    <section class="academic-programs">
+        <div class="container">
+            <h2>Academic Programs</h2>
+            <p>Comprehensive education from early childhood to secondary level</p>
+            
+            <div class="row">
+                <div class="program-col">
+                    <img src="images/IKRAM PHOTOS/Ikram School 1 (10).jpg" alt="Pre-School Program">
+                    <div class="program-content">
+                        <h3>Pre-School (Ages 3-5)</h3>
+                        <p>Early childhood development focusing on Islamic values, basic skills, and creative learning through play-based activities.</p>
+                        <ul>
+                            <li>Islamic Studies & Arabic Language</li>
+                            <li>Early Mathematics & Literacy</li>
+                            <li>Creative Arts & Physical Development</li>
+                            <li>Social Skills & Character Building</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="program-col">
+                    <img src="images/IKRAM PHOTOS/Ikram School 1 (102).jpg" alt="Primary Program">
+                    <div class="program-content">
+                        <h3>Primary (Ages 6-11)</h3>
+                        <p>Comprehensive primary education building strong foundations in core subjects while nurturing Islamic character.</p>
+                        <ul>
+                            <li>Core Academic Subjects</li>
+                            <li>Islamic Studies & Quran</li>
+                            <li>Arabic & English Languages</li>
+                            <li>Extracurricular Activities</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="program-col">
+                    <img src="images/IKRAM PHOTOS/Ikram School 1 (106).jpg" alt="Secondary Program">
+                    <div class="program-content">
+                        <h3>Secondary (Ages 12-18)</h3>
+                        <p>Advanced secondary education preparing students for university and professional success with Islamic guidance.</p>
+                        <ul>
+                            <li>Advanced Academic Subjects</li>
+                            <li>Islamic Ethics & Philosophy</li>
+                            <li>Career Guidance & Counseling</li>
+                            <li>Leadership & Community Service</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- School Facilities Section -->
+    <section class="facilities-showcase">
+        <div class="container">
+            <h2>World-Class Facilities</h2>
+            <p>Modern learning environment designed for excellence</p>
+            
+            <div class="row">
+                <div class="facility-col">
+                    <img src="images/library.png" alt="Modern Library">
+                    <h3>State-of-the-Art Library</h3>
+                    <p>Extensive collection of Islamic and academic literature, digital resources, and quiet study spaces.</p>
+                </div>
+                
+                <div class="facility-col">
+                    <img src="images/basketball.png" alt="Sports Facilities">
+                    <h3>Sports & Recreation</h3>
+                    <p>Basketball courts, football fields, and indoor sports facilities promoting physical health and teamwork.</p>
+                </div>
+                
+                <div class="facility-col">
+                    <img src="images/cafeteria.png" alt="Healthy Dining">
+                    <h3>Halal Dining</h3>
+                    <p>Nutritious halal meals prepared with care, supporting healthy eating habits and Islamic dietary requirements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Admission Requirements Section -->
+    <section class="admission-requirements">
+        <div class="container">
+            <h2>Admission Requirements</h2>
+            <p>Simple and transparent admission process</p>
+            
+            <div class="requirements-grid">
+                <div class="requirement-item">
+                    <div class="requirement-icon">
+                        <i class="fa fa-file-text"></i>
+                    </div>
+                    <h4>Application Form</h4>
+                    <p>Complete online or paper application form with all required information.</p>
+                </div>
+                
+                <div class="requirement-item">
+                    <div class="requirement-icon">
+                        <i class="fa fa-birthday-cake"></i>
+                    </div>
+                    <h4>Birth Certificate</h4>
+                    <p>Original or certified copy of birth certificate for age verification.</p>
+                </div>
+                
+                <div class="requirement-item">
+                    <div class="requirement-icon">
+                        <i class="fa fa-picture-o"></i>
+                    </div>
+                    <h4>Passport Photos</h4>
+                    <p>Recent passport-sized photographs (2-4 copies as specified).</p>
+                </div>
+                
+                <div class="requirement-item">
+                    <div class="requirement-icon">
+                        <i class="fa fa-file-pdf-o"></i>
+                    </div>
+                    <h4>Previous School Records</h4>
+                    <p>Academic records and transfer certificates from previous schools (if applicable).</p>
+                </div>
+                
+                <div class="requirement-item">
+                    <div class="requirement-icon">
+                        <i class="fa fa-heartbeat"></i>
+                    </div>
+                    <h4>Medical Certificate</h4>
+                    <p>Health certificate confirming fitness for school attendance.</p>
+                </div>
+                
+                <div class="requirement-item">
+                    <div class="requirement-icon">
+                        <i class="fa fa-money"></i>
+                    </div>
+                    <h4>Application Fee</h4>
+                    <p>Non-refundable application processing fee as per current rates.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-      <!-------------Call To Action------------------>
+    <!-- Admission Form Section -->
+    <section id="admission-form" class="admission-form-section">
+        <div class="container">
+            <h2>Apply for Admission</h2>
+            <p>Start your child's journey with IKRAAM IDEAL MODEL SCHOOLS</p>
+            
+            <form class="admission-form" action="form-handler.php" method="POST">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="student-name">Student's Full Name *</label>
+                        <input type="text" id="student-name" name="student_name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="date-of-birth">Date of Birth *</label>
+                        <input type="date" id="date-of-birth" name="date_of_birth" required>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="gender">Gender *</label>
+                        <select id="gender" name="gender" required>
+                            <option value="">Select Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="program">Program Applied For *</label>
+                        <select id="program" name="program" required>
+                            <option value="">Select Program</option>
+                            <option value="pre-school">Pre-School (Ages 3-5)</option>
+                            <option value="primary">Primary (Ages 6-11)</option>
+                            <option value="secondary">Secondary (Ages 12-18)</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="parent-name">Parent/Guardian Name *</label>
+                        <input type="text" id="parent-name" name="parent_name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="address">Residential Address *</label>
+                        <textarea id="address" name="address" rows="3" required></textarea>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="previous-school">Previous School (if applicable)</label>
+                        <input type="text" id="previous-school" name="previous_school">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="emergency-contact">Emergency Contact *</label>
+                        <input type="tel" id="emergency-contact" name="emergency_contact" required>
+                    </div>
+                </div>
+                
+                <div class="form-group full-width">
+                    <label for="additional-info">Additional Information</label>
+                    <textarea id="additional-info" name="additional_info" rows="4" placeholder="Any special requirements, medical conditions, or additional information you'd like us to know..."></textarea>
+                </div>
+                
+                <div class="form-group full-width">
+                    <button type="submit" class="submit-btn">
+                        <i class="fa fa-paper-plane"></i>
+                        Submit Application
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Information Section -->
+    <section class="contact-info">
+        <div class="container">
+            <h2>Need Help with Admission?</h2>
+            <p>Our admission team is here to assist you</p>
+            
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                    <h4>Call Us</h4>
+                    <p>+234 XXX XXX XXXX</p>
+                    <p>Monday - Friday: 8:00 AM - 4:00 PM</p>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fa fa-envelope"></i>
+                    </div>
+                    <h4>Email Us</h4>
+                    <p>admissions@ikraamidealmodelschools.com</p>
+                    <p>We respond within 24 hours</p>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fa fa-map-marker"></i>
+                    </div>
+                    <h4>Visit Us</h4>
+                    <p>IKRAAM IDEAL MODEL SCHOOLS</p>
+                    <p>Lagos, Nigeria</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
     <section class="cta">
-        <h1>
-          Enroll For Our Online Weekdays and weekend Modrasahs<br />Anywhere From
-          the world(for children and Adults)
-        </h1>
-        <a href="contact.html" class="hero-btn">CONTACT US</a>
-      </section>
-
-
-
-
-
-
-
-
-
-
-      <!---------------------------facilities content-->
-      <section class="facilities">
-        <h1>Our Facilites</h1>
-        <p>
-          At IKRAAM IDEAL MODEL SCHOOLS, we have different and useful facilities.
-        </p>
-  
-        <div class="row">
-          <div class="facilities-col">
-            <img src="images/Ikram School 1 (392).JPG" />
-            <h3>Our School library</h3>
-            <p>
-              Well equipped library available to all students of the school at any
-              time
-            </p>
-          </div>
-          <div class="facilities-col">
-            <img src="images/Ikram School 1 (265).JPG" />
-            <h3>Our Swimming pool</h3>
-            <p>
-              Our Swimming pool facilities and classes are available to all students of the school at
-              any time
-            </p>
-          </div>
-          <div class="facilities-col">
-            <img src="images/Ikram School 1 (291).JPG" />
-            <h3>ICT Center</h3>
-            <p>
-              ICT Centers and its facilities are available to all students of the school at any
-              time during the school hours.
-            </p>
-          </div>
-        </div>
-      </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-------------Footer------------------>
-    <section class="footer">
-      <h4>About Us</h4>
-      <p>
-        <b>Our Vision</b> <br />
-        Empowering Minds, Enriching Souls At the heart of IKRAAM IDEAL MODEL
-        SCHOOLS lies a vision that goes beyond conventional education. We aim to
-        cultivate inquisitive minds, compassionate hearts, <br />and responsible
-        global citizens who can navigate both the Islamic and Western worlds
-        with confidence and integrity. <br /><b>Our Mission</b> <br />Fostering
-        Excellence in Education, Embracing Cultural Diversity We are dedicated
-        to providing a world-class education that seamlessly integrates Islamic
-        teachings with the best practices of Western education. <br />Our
-        mission is to nurture critical thinking, creativity, and a deep sense of
-        moral responsibility in our students.<br />
-      </p>
-      <div class="icons">
-        <i class="fa fa-facebook"></i>
-        <i class="fa fa-twitter"></i>
-        <i class="fa fa-instagram"></i>
-        <i class="fa fa-linkedin"></i>
-      </div>
+        <h2>Ready to Begin Your Child's Educational Journey?</h2>
+        <p>Join the IKRAAM family and give your child the gift of excellence in Islamic and Western education</p>
+        <a href="#admission-form" class="hero-btn">Apply Now</a>
     </section>
 
-    <!----------------Javascript for Toggle Menu ---------->
-    <script>
-      var navLinks = document.getElementById("navLinks");
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            <b>Our Vision</b><br>
+            Empowering Minds, Enriching Souls. At the heart of IKRAAM IDEAL MODEL SCHOOLS lies a vision that goes beyond conventional education. We aim to cultivate inquisitive minds, compassionate hearts, and responsible global citizens who can navigate both the Islamic and Western worlds with confidence and integrity.
+            <br><b>Our Mission</b><br>
+            Fostering Excellence in Education, Embracing Cultural Diversity. We are dedicated to providing a world-class education that seamlessly integrates Islamic teachings with the best practices of Western education. Our mission is to nurture critical thinking, creativity, and a deep sense of moral responsibility in our students.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
 
-      function showMenu() {
-        navLinks.style.right = "0";
-      }
-      function hideMenu() {
-        navLinks.style.right = "-200px";
-      }
+    <!-- Splash Cursor Element -->
+    <div class="splash-cursor" id="splashCursor"></div>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile Navigation Functions
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+        // Typing Animation for Hero Section
+        function typeWriter() {
+            const text = "Admissions Open for 2024/2025 Academic Year";
+            const typingText = document.getElementById('typing-text');
+            let i = 0;
+
+            function type() {
+                if (i < text.length) {
+                    typingText.innerHTML += text.charAt(i);
+                    i++;
+                    setTimeout(type, 100);
+                }
+            }
+            type();
+        }
+
+        // Initialize 3D Tilt Effects for Cards
+        function initializeTiltEffects() {
+            const cards = document.querySelectorAll('.feature-col, .program-col, .facility-col, .requirement-item, .contact-item');
+            
+            cards.forEach(card => {
+                card.addEventListener('mousemove', (e) => {
+                    const rect = card.getBoundingClientRect();
+                    const x = e.clientX - rect.left;
+                    const y = e.clientY - rect.top;
+                    
+                    const centerX = rect.width / 2;
+                    const centerY = rect.height / 2;
+                    
+                    const rotateX = (y - centerY) / 10;
+                    const rotateY = (centerX - x) / 10;
+                    
+                    card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.05, 1.05, 1.05)`;
+                });
+                
+                card.addEventListener('mouseleave', () => {
+                    card.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)';
+                });
+            });
+        }
+
+        // Initialize Scroll Animations
+        function initializeScrollAnimations() {
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animate-in');
+                    }
+                });
+            }, observerOptions);
+
+            const sections = document.querySelectorAll('.why-choose, .academic-programs, .facilities-showcase, .admission-requirements, .admission-form-section, .contact-info');
+            sections.forEach(section => observer.observe(section));
+        }
+
+        // Initialize Splash Cursor
+        function initializeSplashCursor() {
+            const cursor = document.getElementById('splashCursor');
+            
+            document.addEventListener('mousemove', (e) => {
+                cursor.style.left = e.clientX + 'px';
+                cursor.style.top = e.clientY + 'px';
+            });
+            
+            document.addEventListener('click', (e) => {
+                createRipple(e.clientX, e.clientY);
+            });
+            
+            document.addEventListener('mouseenter', () => {
+                cursor.style.opacity = '1';
+            });
+            
+            document.addEventListener('mouseleave', () => {
+                cursor.style.opacity = '0';
+            });
+        }
+
+        // Create Ripple Effect
+        function createRipple(x, y) {
+            const ripple = document.createElement('div');
+            ripple.className = 'ripple';
+            ripple.style.left = x + 'px';
+            ripple.style.top = y + 'px';
+            document.body.appendChild(ripple);
+            
+            setTimeout(() => {
+                ripple.remove();
+            }, 1000);
+        }
+
+        // Smooth Scrolling for Anchor Links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Initialize everything when page loads
+        window.addEventListener('load', () => {
+            typeWriter();
+            initializeTiltEffects();
+            initializeScrollAnimations();
+            initializeSplashCursor();
+        });
     </script>
-  </body>
+</body>
 </html>
