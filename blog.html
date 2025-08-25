@@ -1,202 +1,514 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>School Website</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,400&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.1/pure-min.css"
-      crossorigin="anonymous"
-    />
-
-    <!-- Load font awesome icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-  </head>
-  <body>
-    <section class="sub-header">
-      <nav>
-        <a href="index.html"><img src="images/schoolIogo.png" /></a>
-        <div class="nav-links" id="navLinks">
-          <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
-          <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="Admission.html">ADMISSIONS</a></li>
-            <li><a href="gallery.html">GALLERY</a></li>
-            <li><a href="blog.html">BLOG</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-          </ul>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog & Insights - IKRAAM IDEAL MODEL SCHOOLS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.1/pure-min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="modern-nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="images/schoolIogo.png" alt="IKRAAM Schools Logo" />
+                    <span class="logo-text">IKRAAM</span>
+                </a>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="index.html" class="nav-link">HOME</a></li>
+                    <li><a href="about.html" class="nav-link">ABOUT</a></li>
+                    <li><a href="Admission.html" class="nav-link">ADMISSIONS</a></li>
+                    <li><a href="gallery.html" class="nav-link">GALLERY</a></li>
+                    <li><a href="blog.html" class="nav-link active">BLOG</a></li>
+                    <li><a href="contact.html" class="nav-link">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="nav-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
-        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
-      </nav>
+    </nav>
 
-      <h1></h1>
+    <!-- Hero Section -->
+    <section class="blog-hero">
+        <div class="hero-content">
+            <h1>Insights & Stories</h1>
+            <p>Discover the latest news, achievements, and inspiring stories from IKRAAM IDEAL MODEL SCHOOLS</p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fa fa-newspaper-o"></i>
+                    </div>
+                    <span class="stat-label">Latest Updates</span>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fa fa-trophy"></i>
+                    </div>
+                    <span class="stat-label">Student Success</span>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fa fa-lightbulb-o"></i>
+                    </div>
+                    <span class="stat-label">Innovation</span>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <!---------------------------blog page content-->
-    <section class="blog-content">
-      <div class="row">
-        <div class="blog-left">
-          <img src="images/IKRAM PHOTOS/Ikram School 1 (186).jpg" />
-          <h2>Our Certificates</h2>
-          <p>
-            Unlocking Futures: Dual Certification at IKRAAM IDEAL MODEL SCHOOLS
-            <br />
-            At IKRAAM IDEAL MODEL SCHOOLS, we understand that education is not
-            just about acquiring knowledge; it's about preparing students for a
-            future that demands versatility and a global perspective. Our unique
-            approach offers dual certification – Islamic and Western
-            certificates – providing a comprehensive educational foundation that
-            transcends cultural and geographical boundaries.
-          </p>
-          <br />
-          <p>
-            The Dual Advantage: <br />1. Versatility:<br />
-            Our dual certification provides students with a versatile skill set
-            that seamlessly blends cultural sensitivity with academic
-            excellence. This versatility is an asset in a world that values
-            individuals who can navigate diverse environments. <br />2.
-            Competitive Edge:<br />
-            Graduates holding both certificates possess a competitive edge. They
-            stand out as individuals who not only understand the intricacies of
-            Islamic principles but also excel in the global academic and
-            professional arenas. <br />3. Holistic Preparation:<br />
-            The combination of Islamic and Western certificates at [School Name]
-            ensures that graduates are holistically prepared – intellectually,
-            morally, and culturally – for the challenges and opportunities that
-            lie ahead.
-          </p>
-          <br />
-          <p>
-            Western Certificate: <br />1. Academic Excellence:<br />
-            The Western certificate is a recognition of academic rigor and
-            excellence. Our curriculum adheres to the highest educational
-            standards, ensuring that graduates are well-prepared for further
-            studies and professional pursuits. <br />2. Global Perspective:<br />
-            Navigate the complexities of the modern world with a broad and
-            global outlook. The Western certificate program integrates
-            international perspectives, preparing students to thrive in a
-            diverse and interconnected global environment. <br />3. Critical
-            Thinking and Innovation:<br />
-            Our courses emphasize critical thinking, problem-solving, and
-            innovation. Graduates with a Western certificate possess not only a
-            solid academic foundation but also the skills needed to adapt and
-            excel in an ever-evolving landscape. <br />4. Career Opportunities:
-            <br />A Western certificate from IKRAAM IDEAL MODEL SCHOOLS opens doors to a
-            world of career opportunities. Whether pursuing higher education or
-            entering the workforce, our graduates stand out as well-rounded
-            individuals ready to make a meaningful impact.
-          </p>
-          <br />
-          <p>
-            Islamic Certificate: <br>1. Moral and Ethical Foundation:<br> Our Islamic
-            certificate is more than a testament to religious knowledge; it is a
-            commitment to fostering a strong moral and ethical foundation.
-            Graduates emerge not only well-versed in Islamic teachings but also
-            equipped with a deep sense of compassion, empathy, and social
-            responsibility. <br>2. Quranic Literacy:<br> Embrace a profound
-            understanding of the Quran. Our Islamic certificate ensures that
-            students are not only able to recite the holy verses but comprehend
-            the meanings, fostering a connection to the sacred text that extends
-            beyond rote memorization. <br>3. Cultural Appreciation:<br> Immerse yourself
-            in the rich tapestry of Islamic culture. Our certificate program
-            includes cultural studies, providing students with a nuanced
-            understanding of the diverse traditions and customs that enrich the
-            Islamic world. <br>4. Community Engagement:<br> Graduates with an Islamic
-            certificate leave IKRAAM IDEAL MODEL SCHOOLS not only as scholars but as actively
-            engaged members of their communities. Our curriculum emphasizes the
-            importance of giving back, encouraging students to contribute
-            positively to society.
-          </p>
-
-
-          <div class="comment-box">
-            <h3>Leave a comment</h3>
-            <form class="comment-form">
-                <input type="text" placeholder="Enter Name" />
-                <input type="email" placeholder="Enter Email">
-                <textarea rows="5" placeholder="Your comment"></textarea>
-                <button type="submit" class="hero-btn pur-btn">POST COMMENT</button>
-            </form>
-          </div>
-
-
-
-
-        </div>
-        <div class="blog-right">
-            <h3>Post Categories</h3>
-            <div>
-                <span>Primary</span>
-                <span>1-6</span>
-            </div>
-            <div>
-                <span>Junior Secondary School</span>
-                <span>1-3</span>
-            </div>
-            <div>
-                <span>Senior Secondary School</span>
-                <span>1-3</span>
-            </div>
-            <div>
-                <span>Tahfeez and Islamiyyah</span>
-                <span>1-6</span>
+    <!-- Featured Article Section -->
+    <section class="featured-article">
+        <div class="container">
+            <div class="article-grid">
+                <div class="article-image">
+                    <img src="images/IKRAM PHOTOS/105.jpg" alt="IKRAAM School Excellence">
+                    <div class="image-overlay">
+                        <div class="overlay-content">
+                            <i class="fa fa-star"></i>
+                            <h4>Featured Story</h4>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="article-content">
+                    <div class="article-meta">
+                        <span class="category">Excellence</span>
+                        <span class="date">August 2024</span>
+                    </div>
+                    <h2>Unlocking Futures: The Power of Dual Certification</h2>
+                    <p class="article-excerpt">
+                        At IKRAAM IDEAL MODEL SCHOOLS, we're not just educating students, we're crafting future leaders who bridge cultures, embrace innovation, and uphold Islamic values while excelling in the global arena.
+                    </p>
+                    <div class="article-highlights">
+                        <div class="highlight-item">
+                            <i class="fa fa-check-circle"></i>
+                            <span>Islamic & Western Certificates</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fa fa-check-circle"></i>
+                            <span>Global Perspective</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fa fa-check-circle"></i>
+                            <span>Cultural Harmony</span>
+                        </div>
+                    </div>
+                    <a href="#full-article" class="read-more-btn">Read Full Article</a>
+                </div>
             </div>
         </div>
-      </div>
     </section>
 
-    <!---------------------------facilities content-->
+    <!-- Main Blog Content -->
+    <section class="blog-content" id="full-article">
+        <div class="container">
+            <div class="content-grid">
+                <div class="main-content">
+                    <article class="blog-article">
+                        <div class="article-header">
+                            <h2>The Dual Advantage: Why IKRAAM Students Excel Globally</h2>
+                            <div class="article-meta">
+                                <span><i class="fa fa-user"></i> IKRAAM Team</span>
+                                <span><i class="fa fa-calendar"></i> August 25, 2024</span>
+                                <span><i class="fa fa-tags"></i> Education, Excellence, Innovation</span>
+                            </div>
+                        </div>
 
-    <!-------------Footer------------------>
+                        <div class="article-body">
+                            <p class="lead-paragraph">
+                                In today's interconnected world, success isn't just about what you know,it's about how you navigate diverse cultures, embrace different perspectives, and maintain your core values while adapting to new challenges. This is exactly what makes IKRAAM IDEAL MODEL SCHOOLS graduates stand out.
+                            </p>
+
+                            <div class="content-section">
+                                <h3> The Versatility Advantage</h3>
+                                <p>
+                                    Our dual certification approach provides students with a unique versatility that's increasingly valuable in today's global marketplace. Imagine a student who can seamlessly transition between Islamic studies and modern science, who understands both traditional wisdom and cutting-edge technology.
+                                </p>
+                                <p>
+                                    This versatility isn't just theoretical, it's practical. Our graduates find themselves equally comfortable in:
+                                </p>
+                                <ul class="feature-list">
+                                    <li><strong>International Universities:</strong> Where they bring cultural sensitivity and global perspective</li>
+                                    <li><strong>Multinational Corporations:</strong> Where they bridge cultural gaps and foster understanding</li>
+                                    <li><strong>Community Leadership:</strong> Where they apply Islamic principles to modern challenges</li>
+                                    <li><strong>Innovation Hubs:</strong> Where they combine traditional wisdom with modern creativity</li>
+                                </ul>
+                            </div>
+
+                            <div class="content-section">
+                                <h3> The Competitive Edge</h3>
+                                <p>
+                                    In a world where everyone has access to the same information, what sets you apart? At IKRAAM, it's the combination of academic excellence with moral grounding. Our students don't just compete – they lead with integrity.
+                                </p>
+                                <div class="highlight-box">
+                                    <h4>What Makes IKRAAM Graduates Special:</h4>
+                                    <div class="highlight-grid">
+                                        <div class="highlight-item">
+                                            <i class="fa fa-heart"></i>
+                                            <span>Moral Compass</span>
+                                        </div>
+                                        <div class="highlight-item">
+                                            <i class="fa fa-globe"></i>
+                                            <span>Global Mindset</span>
+                                        </div>
+                                        <div class="highlight-item">
+                                            <i class="fa fa-lightbulb-o"></i>
+                                            <span>Creative Thinking</span>
+                                        </div>
+                                        <div class="highlight-item">
+                                            <i class="fa fa-handshake-o"></i>
+                                            <span>Cultural Intelligence</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="content-section">
+                                <h3>🌍 Western Certificate: Gateway to Global Opportunities</h3>
+                                <p>
+                                    Our Western certificate isn't just a piece of paper, it's a passport to global opportunities. We've designed our curriculum to meet international standards while maintaining the unique IKRAAM approach.
+                                </p>
+                                
+                                <h4>Academic Excellence That Opens Doors</h4>
+                                <p>
+                                    From mathematics to literature, science to humanities, our Western curriculum emphasizes:
+                                </p>
+                                <ul class="feature-list">
+                                    <li><strong>Critical Thinking:</strong> Students learn to question, analyze, and solve complex problems</li>
+                                    <li><strong>Innovation:</strong> We encourage creative solutions and out-of-the-box thinking</li>
+                                    <li><strong>Global Perspective:</strong> Understanding different cultures and viewpoints</li>
+                                    <li><strong>Future-Ready Skills:</strong> Preparing for careers that don't even exist yet</li>
+                                </ul>
+
+                                <div class="quote-box">
+                                    <blockquote>
+                                        "IKRAAM graduates don't just adapt to change,they create it. Their unique combination of Islamic values and modern skills makes them invaluable assets in any organization."
+                                    </blockquote>
+                                    <cite>— International Education Consultant</cite>
+                                </div>
+                            </div>
+
+                            <div class="content-section">
+                                <h3>🕌 Islamic Certificate: Foundation for Life</h3>
+                                <p>
+                                    While our Western certificate opens doors to opportunity, our Islamic certificate provides the foundation for a meaningful life. This isn't just about religious education, it's about character development.
+                                </p>
+
+                                <h4>Beyond Memorization: Understanding and Application</h4>
+                                <p>
+                                    Our Islamic studies program goes far beyond traditional memorization. Students develop:
+                                </p>
+                                <ul class="feature-list">
+                                    <li><strong>Deep Understanding:</strong> Comprehending the meanings behind Islamic teachings</li>
+                                    <li><strong>Practical Application:</strong> How to live Islamic values in the modern world</li>
+                                    <li><strong>Cultural Appreciation:</strong> Understanding the rich diversity within Islamic traditions</li>
+                                    <li><strong>Community Service:</strong> Learning to give back and make positive contributions</li>
+                                </ul>
+
+                                <div class="success-story">
+                                    <h4>Success Story: Aisha's Journey</h4>
+                                    <p>
+                                        Aisha, a 2023 graduate, perfectly embodies our dual approach. She excelled in her Western studies, earning scholarships to top universities, while her Islamic foundation guided her to choose a career in international humanitarian work.
+                                    </p>
+                                    <p>
+                                        "IKRAAM taught me that I could be both a global citizen and a faithful Muslim. My Islamic values guide my decisions, while my Western education gives me the tools to make a real impact."
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="content-section">
+                                <h3> Preparing for Tomorrow's Challenges</h3>
+                                <p>
+                                    The world is changing faster than ever. New technologies emerge daily, global challenges require innovative solutions, and cultural understanding becomes increasingly crucial. At IKRAAM, we're not just preparing students for today, we're preparing them for tomorrow.
+                                </p>
+
+                                <div class="future-focus">
+                                    <h4>Our Focus Areas for Future Success:</h4>
+                                    <div class="focus-grid">
+                                        <div class="focus-item">
+                                            <i class="fa fa-rocket"></i>
+                                            <h5>Innovation & Technology</h5>
+                                            <p>Embracing new technologies while maintaining human values</p>
+                                        </div>
+                                        <div class="focus-item">
+                                            <i class="fa fa-globe"></i>
+                                            <h5>Global Citizenship</h5>
+                                            <p>Understanding and contributing to the global community</p>
+                                        </div>
+                                        <div class="focus-item">
+                                            <i class="fa fa-balance-scale"></i>
+                                            <h5>Ethical Leadership</h5>
+                                            <p>Leading with integrity in an increasingly complex world</p>
+                                        </div>
+                                        <div class="focus-item">
+                                            <i class="fa fa-heart"></i>
+                                            <h5>Cultural Harmony</h5>
+                                            <p>Building bridges between different cultures and traditions</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="content-section">
+                                <h3>💡 The IKRAAM Difference</h3>
+                                <p>
+                                    What truly sets IKRAAM IDEAL MODEL SCHOOLS apart is our commitment to excellence in both Islamic and Western education. We don't see these as competing approaches, we see them as complementary forces that create exceptional individuals.
+                                </p>
+                                
+                                <p>
+                                    Our graduates leave IKRAAM not just with two certificates, but with:
+                                </p>
+                                <ul class="feature-list">
+                                    <li>A strong moral foundation that guides their decisions</li>
+                                    <li>Academic skills that open doors to opportunity</li>
+                                    <li>Cultural intelligence that enables global success</li>
+                                    <li>A sense of purpose that drives meaningful contributions</li>
+                                    <li>The confidence to navigate any environment with integrity</li>
+                                </ul>
+
+                                <div class="call-to-action">
+                                    <h4>Ready to Unlock Your Future?</h4>
+                                    <p>
+                                        Join the growing community of IKRAAM graduates who are making a difference in the world. Whether you're a parent considering your child's education or a student looking for a unique learning experience, IKRAAM offers a path to excellence that honors both tradition and innovation.
+                                    </p>
+                                    <div class="cta-buttons">
+                                        <a href="Admission.html" class="hero-btn">Apply Now</a>
+                                        <a href="about.html" class="hero-btn secondary">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Comments Section -->
+                    <div class="comments-section">
+                        <h3>Join the Conversation</h3>
+                        <p>Share your thoughts and experiences with our community</p>
+                        
+                        <div class="comment-form">
+                            <form>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Your Name *" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" placeholder="Your Email *" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <textarea rows="5" placeholder="Share your thoughts, questions, or experiences... *" required></textarea>
+                                </div>
+                                <button type="submit" class="submit-btn">
+                                    <i class="fa fa-paper-plane"></i>
+                                    Post Comment
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="sidebar">
+                    <div class="sidebar-widget">
+                        <h3>Categories</h3>
+                        <div class="category-list">
+                            <a href="#" class="category-item">
+                                <span class="category-name">Academic Excellence</span>
+                                <span class="category-count">15</span>
+                            </a>
+                            <a href="#" class="category-item">
+                                <span class="category-name">Student Success</span>
+                                <span class="category-count">23</span>
+                            </a>
+                            <a href="#" class="category-item">
+                                <span class="category-name">Islamic Education</span>
+                                <span class="category-count">18</span>
+                            </a>
+                            <a href="#" class="category-item">
+                                <span class="category-name">Innovation</span>
+                                <span class="category-count">12</span>
+                            </a>
+                            <a href="#" class="category-item">
+                                <span class="category-name">Community</span>
+                                <span class="category-count">9</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-widget">
+                        <h3>Recent Posts</h3>
+                        <div class="recent-posts">
+                            <div class="recent-post">
+                                <img src="images/Ikram School 1 (502).JPG" alt="Recent Post">
+                                <div class="post-info">
+                                    <h4>Student Leadership Program</h4>
+                                    <span class="post-date">August 20, 2024</span>
+                                </div>
+                            </div>
+                            <div class="recent-post">
+                                <img src="images/Ikram School 1 (505).JPG" alt="Recent Post">
+                                <div class="post-info">
+                                    <h4>Science Fair Winners</h4>
+                                    <span class="post-date">August 18, 2024</span>
+                                </div>
+                            </div>
+                            <div class="recent-post">
+                                <img src="images/Ikram School 1 (392).JPG" alt="Recent Post">
+                                <div class="post-info">
+                                    <h4>Library Innovation</h4>
+                                    <span class="post-date">August 15, 2024</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-widget">
+                        <h3>Subscribe to Updates</h3>
+                        <p>Stay informed about our latest news and achievements</p>
+                        <form class="subscribe-form">
+                            <input type="email" placeholder="Enter your email" required>
+                            <button type="submit" class="subscribe-btn">
+                                <i class="fa fa-envelope"></i>
+                                Subscribe
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <section class="footer">
-      <h4>About Us</h4>
-      <p>
-        <b>Our Vision</b> <br />
-        Empowering Minds, Enriching Souls At the heart of IKRAAM IDEAL MODEL
-        SCHOOLS lies a vision that goes beyond conventional education. We aim to
-        cultivate inquisitive minds, compassionate hearts, <br />and responsible
-        global citizens who can navigate both the Islamic and Western worlds
-        with confidence and integrity. <br /><b>Our Mission</b> <br />Fostering
-        Excellence in Education, Embracing Cultural Diversity We are dedicated
-        to providing a world-class education that seamlessly integrates Islamic
-        teachings with the best practices of Western education. <br />Our
-        mission is to nurture critical thinking, creativity, and a deep sense of
-        moral responsibility in our students.<br />
-      </p>
-      <div class="icons">
-        <i class="fa fa-facebook"></i>
-        <i class="fa fa-twitter"></i>
-        <i class="fa fa-instagram"></i>
-        <i class="fa fa-linkedin"></i>
-      </div>
+        <h4>About Us</h4>
+        <p>
+            <b>Our Vision</b><br>
+            Empowering Minds, Enriching Souls. At the heart of IKRAAM IDEAL MODEL SCHOOLS lies a vision that goes beyond conventional education. We aim to cultivate inquisitive minds, compassionate hearts, and responsible global citizens who can navigate both the Islamic and Western worlds with confidence and integrity.
+            <br><b>Our Mission</b><br>
+            Fostering Excellence in Education, Embracing Cultural Diversity. We are dedicated to providing a world-class education that seamlessly integrates Islamic teachings with the best practices of Western education. Our mission is to nurture critical thinking, creativity, and a deep sense of moral responsibility in our students.
+        </p>
+        <div class="contact-details">
+            <p><i class="fa fa-map-marker"></i> 41/43 Olanrewaju Street, Ijoko Road, Sango, Ogun State, Nigeria</p>
+            <p><i class="fa fa-phone"></i> +2348033123960, +2348185783695, +2348130672649</p>
+            <p><i class="fa fa-envelope"></i> ikraamidealmodelcollege1@gmail.com</p>
+        </div>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
     </section>
 
-    <!----------------Javascript for Toggle Menu ---------->
-    <script>
-      var navLinks = document.getElementById("navLinks");
+    <!-- Splash Cursor Element -->
+    <div class="splash-cursor" id="splashCursor"></div>
 
-      function showMenu() {
-        navLinks.style.right = "0";
-      }
-      function hideMenu() {
-        navLinks.style.right = "-200px";
-      }
+    <!-- JavaScript -->
+    <script>
+        // Mobile Navigation Functions
+        var navLinks = document.getElementById("navLinks");
+        function toggleMenu() {
+            navLinks.classList.toggle('active');
+            document.querySelector('.nav-toggle').classList.toggle('active');
+        }
+
+        // Initialize 3D Tilt Effects for Cards
+        function initializeTiltEffects() {
+            const cards = document.querySelectorAll('.focus-item, .recent-post, .category-item');
+            
+            cards.forEach(card => {
+                card.addEventListener('mousemove', (e) => {
+                    const rect = card.getBoundingClientRect();
+                    const x = e.clientX - rect.left;
+                    const y = e.clientY - rect.top;
+                    
+                    const centerX = rect.width / 2;
+                    const centerY = rect.height / 2;
+                    
+                    const rotateX = (y - centerY) / 15;
+                    const rotateY = (centerX - x) / 15;
+                    
+                    card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.02, 1.02, 1.02)`;
+                });
+                
+                card.addEventListener('mouseleave', () => {
+                    card.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)';
+                });
+            });
+        }
+
+        // Initialize Scroll Animations
+        function initializeScrollAnimations() {
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animate-in');
+                    }
+                });
+            }, observerOptions);
+
+            const sections = document.querySelectorAll('.content-section, .sidebar-widget');
+            sections.forEach(section => observer.observe(section));
+        }
+
+        // Initialize Splash Cursor
+        function initializeSplashCursor() {
+            const cursor = document.getElementById('splashCursor');
+            
+            document.addEventListener('mousemove', (e) => {
+                cursor.style.left = e.clientX + 'px';
+                cursor.style.top = e.clientY + 'px';
+            });
+            
+            document.addEventListener('click', (e) => {
+                createRipple(e.clientX, e.clientY);
+            });
+            
+            document.addEventListener('mouseenter', () => {
+                cursor.style.opacity = '1';
+            });
+            
+            document.addEventListener('mouseleave', () => {
+                cursor.style.opacity = '0';
+            });
+        }
+
+        // Create Ripple Effect
+        function createRipple(x, y) {
+            const ripple = document.createElement('div');
+            ripple.className = 'ripple';
+            ripple.style.left = x + 'px';
+            ripple.style.top = y + 'px';
+            document.body.appendChild(ripple);
+            
+            setTimeout(() => {
+                ripple.remove();
+            }, 1000);
+        }
+
+        // Initialize everything when page loads
+        window.addEventListener('load', () => {
+            initializeTiltEffects();
+            initializeScrollAnimations();
+            initializeSplashCursor();
+        });
     </script>
-  </body>
+</body>
 </html>
