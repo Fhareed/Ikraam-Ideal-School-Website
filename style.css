@@ -4460,13 +4460,28 @@ p{
     transform: translateY(-10px);
 }
 
-.stat-number {
-    display: block;
-    font-size: 48px;
-    font-weight: 700;
-    color: #667eea;
-    margin-bottom: 10px;
-    text-shadow: 0 0 20px rgba(102, 126, 234, 0.5);
+.stat-icon {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+}
+
+.stat-icon i {
+    font-size: 36px;
+    color: #fff;
+}
+
+.stat-item:hover .stat-icon {
+    transform: scale(1.15) rotate(8deg);
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+    box-shadow: 0 15px 35px rgba(118, 75, 162, 0.4);
 }
 
 .stat-label {
@@ -4475,6 +4490,7 @@ p{
     opacity: 0.9;
     text-transform: uppercase;
     letter-spacing: 1px;
+    font-weight: 500;
 }
 
 /* Our Story Section */
@@ -5063,12 +5079,21 @@ p{
     gap: 20px;
 }
 
-.testimonial-author img {
+.author-icon {
     width: 60px;
     height: 60px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     border-radius: 50%;
-    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 3px solid #667eea;
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+}
+
+.author-icon i {
+    font-size: 24px;
+    color: #fff;
 }
 
 .author-info h4 {
@@ -5163,8 +5188,13 @@ p{
         gap: 40px;
     }
     
-    .stat-number {
-        font-size: 40px;
+    .stat-icon {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .stat-icon i {
+        font-size: 32px;
     }
 }
 
@@ -5185,8 +5215,13 @@ p{
         gap: 30px;
     }
     
-    .stat-number {
-        font-size: 36px;
+    .stat-icon {
+        width: 65px;
+        height: 65px;
+    }
+    
+    .stat-icon i {
+        font-size: 30px;
     }
 }
 
